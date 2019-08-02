@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Employee</title>
+    <title>Train Schedule</title>
 </head>
 <body>
 <div class="container">
     <div class="jumbotron jumbotron-fluid jumbo-attr">
         <div class="container">
-            <h1 class="display-4">Employee List</h1>
+            <h1 class="display-4">Train Schedule</h1>
 
         </div>
     </div>
     <div class="search-container">
         <div class="results results-attr">
-            <div class="container-title">Employees</div>
+            <div class="container-title">Train Schedule</div>
             <hr>
             <table class="results-titles">
                 <thead>
@@ -31,7 +31,7 @@
                     <th>Minutes Away</th>
                 </tr>
                 </thead>
-                <tbody class="employees">
+                <tbody class="trainInfo">
                 </tbody>
             </table>
             <hr>
@@ -40,12 +40,12 @@
     <div class="search-container">
         <br>
         <div class="container-title">
-            <i class="far fa-calendar-alt"></i> Search Parameters
+            <i class="far fa-calendar-alt"></i> Add Train
         </div>
         <hr>
         <div class="form-group">
             <label>Train name</label>
-            <input class="form-control trainName">
+            <input class="form-control trainsName">
         </div>
 
         <div class="form-group">
@@ -54,7 +54,7 @@
         </div>
 
         <div class="form-group">
-            <label>First train time</label>
+            <label>First train time (HH:mm)</label>
             <input class="form-control firstTrain">
         </div>
         <div class="form-group">
@@ -65,10 +65,10 @@
 
     </div>
 </div>
-
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
 <script src="assets/javascript/train.js"></script>
 

@@ -1,0 +1,25 @@
+.jumbo-attr {
+    background-color:seagreen;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.results-titles {
+    width: 100%;
+}
+.search-container {
+    border: 1px solid grey;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: #dce3dc;
+}
+.search {
+background-color: seagreen;
+    border-color: seagreen;
+}
+.search:hover {
+    background-color: darkseagreen;
+    border-color: darkseagreen;
+
+}
